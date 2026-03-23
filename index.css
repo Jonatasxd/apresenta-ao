@@ -32,15 +32,12 @@ nav {
     height: 8vh
 
 }
-
 main {
-    background: url(far.jpg) no-repeat
-    center center;
+    background: url("far.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
     margin: 0;
 }
-
 .nav-list {
 
      list-style: none;
