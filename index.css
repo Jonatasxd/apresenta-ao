@@ -85,6 +85,20 @@ main {
 
     }
 
+    @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    display: none; /* opcional se tiver menu mobile */
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+
     .nav-list li {
         margin-left: 0;
         opacity: 0;
