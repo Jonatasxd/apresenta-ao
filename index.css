@@ -49,6 +49,7 @@ main {
 
     letter-spacing: 3px;
     margin-left: 32px;
+    opacity: 0;
 
 }
 
@@ -171,6 +172,16 @@ eas.jpg {
 
 }
 
+.nav-list.active {
+    transform: translateX(0);
+
+
+}
+
+.nav-list.active li {
+      opacity: 1;
+
+}
 
 
 
