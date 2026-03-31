@@ -32,16 +32,20 @@ nav {
     height: 8vh
 
 }
+
 main {
-  background: url(far.jpg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
+    background: url(far.jpg) no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+    margin: 0;
 }
+
 .nav-list {
 
      list-style: none;
      display: flex;
+     transition: transform 0.3 ease-in;
 
 }
 
@@ -49,7 +53,7 @@ main {
 
     letter-spacing: 3px;
     margin-left: 32px;
-
+    
 
 }
 
@@ -85,20 +89,6 @@ main {
 
 
     }
-
-    @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .nav-list {
-    display: none; /* opcional se tiver menu mobile */
-  }
-
-  .box {
-    width: 100%;
-  }
-}
 
     .nav-list li {
         margin-left: 0;
@@ -182,6 +172,4 @@ eas.jpg {
       opacity: 1;
 
 }
-
-
 
